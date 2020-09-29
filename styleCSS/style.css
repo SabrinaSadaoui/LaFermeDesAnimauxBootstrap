@@ -1,0 +1,266 @@
+/*fichier css site ePortfolio Courbois paul*/
+/*Fichier validé par W3C*/
+/*Media queries pour les écran superieur a 1200pixels de large*/
+@media screen and (min-width: 1200px) {
+	/*Enlever les marges automatiques des navigateurs*/
+	* {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:25px;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+	height:auto;
+	font-family:Bungee;
+	}
+	/*structure principale de la page*/
+	body{
+		background-color:black;
+		color:white;
+		overflow:scroll;
+		text-align:center;
+	}
+	section{
+		background-color: white;
+		width:80%;	
+		margin-left:auto;
+		margin-right: auto;
+		margin-top:25px;
+		margin-bottom: 25px;
+		padding:5%;
+		color:black;
+		text-align:left;
+		overflow:auto;
+	}
+	section p{
+    font-family: "Times New Roman", Times, serif;
+	font-size:25px;
+	}
+	section h1{
+		color:red;
+		font-weight: bold;
+		font-size:25px;
+	}
+	section b{
+		font-family: "Times New Roman", Times, serif;
+		font-size:25px;
+		font-weight:bold;
+	}
+	p{
+		margin-bottom: 40px;
+		font-size: 15px;
+	}
+	footer{
+		text-align: center;
+		font-size:10px;
+		color:grey;
+	}
+	.petitimg{
+		display:none;
+	}
+	/*definition du titre de la rubrique*/
+	.titreRubrique{
+		font-size:30px;
+		font-weight:bold;
+		color:red;
+		margin-top:25px;
+	}
+	/*Definition du Menu de navigation*/
+	li{
+		list-style-type:none;
+	}
+	nav{
+		border: none;
+		width: 100%;
+		background-color: black;
+		height: 65px;
+	}
+	nav li{
+		text-align: center;
+		width: 24.675%;
+		transition:0.5s;
+		display: inline-block;
+		height:65px;
+	}
+	nav li a{
+		color: white;
+		font-size:25px;
+	}
+	.subnav li{
+		display:inherit;
+		width: auto;
+	}
+	.active:hover .subnav {
+		display:block;
+	}
+	.active:hover {
+		box-shadow: -10px 0px red;
+	}
+	.subnav {
+		display: none;
+		width: inherit;
+		background-color:black;
+		position:absolute;
+		box-shadow: -10px 0px red;
+	}
+	nav li:hover a {
+		color: white;
+	}
+
+	nav li:hover {
+  	  background-color: black;
+  	  box-shadow: -10px 0px red;
+	}
+	.en-cour{
+		text-decoration:underline white;
+	}
+	.gauche{
+		float: left;
+		margin:5px;
+		padding-right:1em;
+	}
+	.droite{
+		float: right;
+		margin:5px;
+		padding-left:1em;
+	}
+}
+
+/*Media queries pour les écran inferieur a 1200pixels de large*/
+@media screen and (max-width: 1199px){
+	/*Enlever les marges automatiques des navigateurs*/
+	* {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:20px;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+	height:auto;
+	font-family:Bungee;
+	}
+	/*structure principale de la page*/
+	body{
+		background-color:black;
+		color:white;
+		overflow:scroll;
+		text-align:center;
+	}
+	section{
+		background-color: white;
+		width:80%;	
+		margin-left:auto;
+		margin-right: auto;
+		margin-top:25px;
+		margin-bottom: 25px;
+		padding:5%;
+		color:black;
+		text-align:left;
+	}
+	section p{
+    font-family: "Times New Roman", Times, serif;
+	font-size:25px;
+	}
+	section h1{
+		color:red;
+		font-weight: bold;
+		font-size:25px;
+	}
+	section b{
+		font-family: "Times New Roman", Times, serif;
+		font-size:25px;
+		font-weight:bold;
+	}
+	p{
+		margin-bottom: 40px;
+		font-size: 15px;
+	}
+	footer{
+		text-align: center;
+		font-size:10px;
+		color:grey;
+	}
+	p{
+		margin-bottom: 40px;
+	}
+	footer{
+		text-align: center;
+		font-size:15px;
+		color:grey;
+	}
+	.grandimg{
+		display:none;
+		background-color: white;
+	}
+	/*definition du titre de la rubrique*/
+	.titreRubrique{
+		font-size:30px;
+		font-weight:bold;
+		color:red;
+		margin-top:25px;
+	}
+	/*Definition du Menu de navigation*/
+	li{
+		list-style-type:none;
+	}
+	nav{
+		border: none;
+		width: 100%;
+		background-color: black;
+		height: 40px;
+		margin-bottom: 125px;
+	}
+	nav li{
+		text-align: center;
+		width: 24.675%;
+		transition:0.5s;
+		display: inline-block;
+		height:65px;
+	}
+	nav li a{
+		color: white;
+		font-size:25px;
+	}
+	.subnav li{
+		display:inherit;
+		width: auto;
+		overflow: hidden;
+	}
+	.active:hover .subnav {
+		display:block;
+	}
+	.active:hover {
+		box-shadow: -10px 0px red;
+	}
+	.subnav {
+		display: none;
+		width: inherit;
+		background-color:black;
+		position:absolute;
+		box-shadow: -10px 0px red;
+	}
+	nav li:hover a {
+		color: white;
+	}
+
+	nav li:hover {
+  	  background-color: black;
+  	  box-shadow: -10px 0px red;
+	}
+	.en-cour{
+		text-decoration:underline white;
+	}
+	.gauche{
+		float: left;
+		margin:5px;
+		padding-right:1em;
+	}
+	.droite{
+		float: right;
+		margin:5px;
+		padding-left:1em;
+	}
+	
+}
